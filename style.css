@@ -658,6 +658,12 @@ input[type="date"]:before {
   font-size: 8px;
 }
 
+@media only screen and (min-width: 1600px) {
+  .container{
+    max-width: 1550px;
+  }
+}
+
 @media only screen and (max-width: 1200px) {
   .container{
     width: 90%;
